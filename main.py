@@ -1,4 +1,5 @@
 import json, asyncio
+from keep_alive import keep_alive
 from aiogram import F, Bot, Dispatcher
 from aiogram.enums import ParseMode
 from aiogram.filters import Command, StateFilter
